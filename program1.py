@@ -5,7 +5,6 @@ class Solution(object):
         mapping = {")": "(", "}": "{", "]": "["}
         for char in s:
             if char in mapping:
-                # Pop the top element from the stack if it's not empty, otherwise assign a dummy value
                 top_element = stack.pop() if stack else '#'
                 
                 # Check if the popped element is the matching opening bracket
