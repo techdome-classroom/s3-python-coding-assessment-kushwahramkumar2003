@@ -11,18 +11,4 @@ class Solution(object):
                     return False
             else:
                 stack.append(char)
-
-        # If the stack is empty, all the brackets are balanced
         return not stack
-
-
-
-
-
-
-    
-
-
-
-  
-
