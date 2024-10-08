@@ -2,10 +2,7 @@ class Solution(object):
     def isValid(self, s):
         stack = []
 
-        # Hash map to hold mappings of closing brackets to corresponding opening brackets
         mapping = {")": "(", "}": "{", "]": "["}
-
-        # Loop through each character in the string
         for char in s:
             # If the character is a closing bracket
             if char in mapping:
