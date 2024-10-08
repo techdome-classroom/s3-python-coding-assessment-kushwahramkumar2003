@@ -10,7 +10,6 @@ class Solution(object):
                 if mapping[char] != top_element:
                     return False
             else:
-                # If it's an opening bracket, push it onto the stack
                 stack.append(char)
 
         # If the stack is empty, all the brackets are balanced
