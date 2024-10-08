@@ -1,6 +1,5 @@
 class Solution(object):
     def isValid(self, s):
-        """
         stack = []
 
         # Hash map to hold mappings of closing brackets to corresponding opening brackets
